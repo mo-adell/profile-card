@@ -1,0 +1,8 @@
+.DS_Store
+.prettierignore
+gulpfile.js
+*.md
+*.json
+
+build/design
+node_modules/
