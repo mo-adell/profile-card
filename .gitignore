@@ -4,5 +4,5 @@ gulpfile.js
 *.md
 *.json
 
-build/design
+src/design
 node_modules/
