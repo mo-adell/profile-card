@@ -1,0 +1,84 @@
+@import 'main';
+
+section {
+    width: 400px;
+    background: #fff;
+    border-radius: 15px;
+    margin: 0 1.2rem;
+
+    .img-container {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        position: relative;
+
+        .bg-img {
+            width: 100%;
+            height: 160px;
+            border-radius: 15px 15px 0 0;
+        }
+
+        .profile-img {
+            width: 120px;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            position: absolute;
+            bottom: -60px;
+        }
+    }
+}
+
+.text-container {
+    width: 100%;
+    text-align: center;
+    color: $darkBlue;
+
+    .upper-box {
+        margin: 80px 0 1.6rem;
+
+        span,p {
+            color: $neutral;
+        }
+
+        p {
+            margin-top: .4rem;
+            font-size: 1rem;
+            letter-spacing: 1px;
+        }
+
+        h1 {
+            font: $font-stack2;
+            font-size: 1.4rem;
+        }
+
+        h1 > span {
+            font: $font-stack1;
+            font-size: 1.3rem;
+            margin-left: .6rem;
+        }
+    }
+
+    .lower-box {
+        border-top: 1px solid rgba(165, 157, 157, 0.205);
+
+        ul {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            list-style: none;
+            margin: .3rem 0;
+        }
+
+        li {
+            padding: 20px;
+
+        }
+
+        span {
+            font-size: 80%;
+            color: $neutral;
+            letter-spacing: 1px;
+        }
+    }
+}
