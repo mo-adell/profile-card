@@ -87,3 +87,8 @@ main {
   justify-content: center;
   background: url("../images/bg-pattern-top.svg") no-repeat -320px -500px, url("../images/bg-pattern-bottom.svg") no-repeat 700px 400px;
 }
+@media screen and (max-width: 400px) {
+  main {
+    background: url("../images/bg-pattern-top.svg") no-repeat -780px -540px, url("../images/bg-pattern-bottom.svg") no-repeat 160px 370px;
+  }
+}
