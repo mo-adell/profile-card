@@ -1,8 +1,8 @@
 .DS_Store
 .prettierignore
 gulpfile.js
-*.md
 *.json
+*.md
 
 src/design
 node_modules/
